@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form name="invoer" action="mijngegevens.php" method="post">
+	<p>Voornaam:<input type="text" name="Voornaam"></p>
+	<p>achternaam:<input type="text" name="Achternaam"></p>
+	<p>klas:<input type="text" name="Klas"></p>
+	<p>Leeftijd:<input type="text" name="Leeftijd"></p>
+	<p>Adres:<input type="text" name="Adres"></p>
+	<p>Woonplaats:<input type="text" name="Woonplaats"></p>
+	<input type="radio" name="geslacht" value="man">
+	<label for="man">man</label>
+	<input type="radio" name="geslacht" value="vrouw">
+	<label for="vrouw">vrouw</label>
+	<label for="kleur">kies een kleur</label>
+	<select name="kleur" id="kleur">
+		<option value="red">Rood</option>
+		<option value="green">groen</option>
+		<option value="blue">blauw</option>
+		<option value="pink">pink</option>
+		<option value="black">zwart</option>
+	</select>
+	<input type="submit" name="submit" value="verstuur">
+</form>
+</body>
+</html>
