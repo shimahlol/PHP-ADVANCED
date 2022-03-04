@@ -11,8 +11,13 @@
 function rekenuit(int $a, int $b, int $c){
 	$d = $a + $b + $c ;
 	echo "Als ik de getallen $a, $b en $c bij elkaar optel, is de uitkomst $d";
+	echo "<br>";
 }
-rekenuit(1, 2, 4)
+rekenuit(1, 2, 4);
+rekenuit(2, 32, 24);
+rekenuit(15, 52, 54);
+rekenuit(17, 72, 84);
+rekenuit(91, 02, 49);
 ?>
 </body>
 </html>
